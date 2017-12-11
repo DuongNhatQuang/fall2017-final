@@ -4,7 +4,6 @@
 //
 //  Created by Daniel Nguyen on 12/3/17.
 //  Copyright © 2017 Daniel Nguyen. All rights reserved.
-//
 
 #include "Line.hpp"
 
