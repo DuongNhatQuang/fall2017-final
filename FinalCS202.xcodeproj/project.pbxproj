@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		376B5D6D1FD3FFDB004FD844 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 376B5D6C1FD3FFDB004FD844 /* main.cpp */; };
+		376B5D751FD40030004FD844 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 376B5D731FD40030004FD844 /* Point.cpp */; };
+		376B5D781FD40126004FD844 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 376B5D761FD40126004FD844 /* Line.cpp */; };
+		376B5D7B1FD402BE004FD844 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 376B5D791FD402BE004FD844 /* Circle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		376B5D691FD3FFDB004FD844 /* FinalCS202 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalCS202; sourceTree = BUILT_PRODUCTS_DIR; };
 		376B5D6C1FD3FFDB004FD844 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		376B5D731FD40030004FD844 /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		376B5D741FD40030004FD844 /* Point.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		376B5D761FD40126004FD844 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		376B5D771FD40126004FD844 /* Line.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Line.hpp; sourceTree = "<group>"; };
+		376B5D791FD402BE004FD844 /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		376B5D7A1FD402BE004FD844 /* Circle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				376B5D6C1FD3FFDB004FD844 /* main.cpp */,
+				376B5D731FD40030004FD844 /* Point.cpp */,
+				376B5D741FD40030004FD844 /* Point.hpp */,
+				376B5D761FD40126004FD844 /* Line.cpp */,
+				376B5D771FD40126004FD844 /* Line.hpp */,
+				376B5D791FD402BE004FD844 /* Circle.cpp */,
+				376B5D7A1FD402BE004FD844 /* Circle.hpp */,
 			);
 			path = FinalCS202;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376B5D781FD40126004FD844 /* Line.cpp in Sources */,
+				376B5D7B1FD402BE004FD844 /* Circle.cpp in Sources */,
+				376B5D751FD40030004FD844 /* Point.cpp in Sources */,
 				376B5D6D1FD3FFDB004FD844 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +236,7 @@
 		376B5D711FD3FFDB004FD844 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.65.1/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -225,6 +244,7 @@
 		376B5D721FD3FFDB004FD844 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/boost/1.65.1/include;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -248,6 +268,7 @@
 				376B5D721FD3FFDB004FD844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
