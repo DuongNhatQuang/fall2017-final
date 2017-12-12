@@ -10,21 +10,11 @@
 #define Point_hpp
 
 #include <iostream>
-#include <vector>
-#include <string>
-//#include <boost/algorithm/string.hpp>
 using namespace std;
-
-class rgbColor {
-public:
-    unsigned short r,g,b;
-    void colorOut(); //endline
-    rgbColor(string rgbString);
-};
 
 class Point {
 private:
-    double x,y;
+    int x,y;
 public:
     Point(double x, double y);
     void pointOut(); //print point to console e.g: A(1, 1) + endline
