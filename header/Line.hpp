@@ -8,7 +8,6 @@
 
 #ifndef Line_hpp
 #define Line_hpp
-#include "basic_elements/*"
 class Line : public Shape
 {
 private:

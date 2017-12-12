@@ -1,7 +1,9 @@
 #ifndef Circle_hpp
 #define Circle_hpp
 
-#include "basic_elements/*"
+#include "basic_elements/Point.hpp"
+#include "basic_elements/rgbColor.hpp"
+#include "basic_elements/Shape.hpp"
 
 class Circle : public Shape 
 {
