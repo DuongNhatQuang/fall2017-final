@@ -1,5 +1,11 @@
+#ifndef Shape_hpp
+#define Shape_hpp
+
 #include "Point.hpp"
 #include "rgbColor.hpp"
+
+#include <iostream>
+using namespace std;
 
 class Shape
 {
@@ -14,3 +20,5 @@ public:
     Shape(rgbColor cFill, rgbColor cStroke, float oFill, float oStroke);
     ~Shape();
 };
+
+#endif
