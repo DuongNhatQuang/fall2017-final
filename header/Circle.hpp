@@ -1,8 +1,6 @@
 #ifndef Circle_hpp
 #define Circle_hpp
 
-#include "basic_elements/Point.hpp"
-#include "basic_elements/rgbColor.hpp"
 #include "basic_elements/Shape.hpp"
 
 class Circle : public Shape 
@@ -12,12 +10,12 @@ private:
     int radius;
 
 public:
-    Circle(double cx,double cy,double r,string fColor,string sColor,unsigned short sWidth):center(cx,cy),radius(r),fillColor(fColor),strokeColor(sColor),strokeWidth(sWidth)
-    {
-        
-    }
+    Circle(float oFill, string cFill, float oStroke, string cStroke, 
+        int widthStroke, int centerx, int centery, int radius);
     void consoleOutput();
     void graphicalOutput();
+
+    ~Circle();
 };
 
 #endif /* Circle_hpp */
