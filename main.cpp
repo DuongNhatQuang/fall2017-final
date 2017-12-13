@@ -2,10 +2,10 @@
 
 #include <iostream>
 #include <vector>
-#include "SVGXMLReader.h"
-#include "svggraphic/SVGElement.h"
-#include "svggraphic/LineBuilder.h"
-#include "svggraphic/EllipseBuilder.h"
+#include "header/SVGXMLReader.hpp"
+#include "header/svggraphics/SVGElement.hpp"
+#include "header/svggraphics/LineBuilder.hpp"
+#include "header/svggraphics/EllipseBuilder.hpp"
 
 using namespace std;
 
